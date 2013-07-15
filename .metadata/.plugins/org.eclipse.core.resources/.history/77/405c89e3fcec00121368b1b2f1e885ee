@@ -1,0 +1,7 @@
+package com.cloudwick.compartors;
+
+import java.util.Comparator;
+
+public class MyComp implements Comparator<T> {
+
+}

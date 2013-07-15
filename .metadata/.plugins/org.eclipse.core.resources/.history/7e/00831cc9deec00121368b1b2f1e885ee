@@ -1,0 +1,19 @@
+package com.cloudwick.collections;
+
+import java.util.HashSet;
+
+public class HashSetExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<Integer> hs = new HashSet<Integer>();
+
+		System.out.println(hs.size());
+
+	}
+
+}

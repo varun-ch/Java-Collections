@@ -1,0 +1,38 @@
+package com.cloudwick.collections;
+
+import java.util.HashSet;
+import java.util.TreeSet;
+
+public class Hash_And_Tree {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<Integer> hs = new HashSet<Integer>();
+		
+		HashSet<Integer> hs2 = new HashSet<Integer>(10);
+
+		hs.add(1);
+		hs.add(20);
+		hs.add(12);
+		hs.add(4);
+		hs.add(18);
+		//hash set doesn't store elements in sorted order
+		System.out.println(hs);
+		
+		TreeSet<Integer> ts = new TreeSet<Integer>();
+		
+		ts.add(1);
+		ts.add(20);
+		ts.add(12);
+		ts.add(4);
+		ts.add(18);
+		//tree set stores elements in sorted order
+		System.out.println(ts);
+
+	}
+
+}

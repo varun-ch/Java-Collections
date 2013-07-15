@@ -1,0 +1,15 @@
+package com.cloudwick.collections;
+
+import java.util.HashSet;
+
+public class Linked_HS extends HashSet<E> {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

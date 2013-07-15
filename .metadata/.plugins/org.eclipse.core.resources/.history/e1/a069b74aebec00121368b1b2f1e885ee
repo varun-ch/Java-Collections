@@ -1,0 +1,53 @@
+package com.cloudwick.collections;
+
+import java.util.ArrayDeque;
+import java.util.Iterator;
+
+public class ArrayDQExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayDeque<String> ad = new ArrayDeque<String>();//default capacity is 16
+		ArrayDeque<String> ad2 = new ArrayDeque<String>();
+		
+		
+		//push inserts at the front of the deque 
+		//stack implementation - LIFO
+		ad.push("E");
+		ad.push("R");
+		ad.push("V");
+		ad.push("C");
+		ad.push("D");
+		ad.push("T");
+		ad.push("B");
+		
+		//add inserts at the end of deque
+		//Queue implementation - FIFO
+		ad2.add("E");
+		ad2.add("R");
+		ad2.add("V");
+		ad2.add("C");
+		ad2.add("D");
+		ad2.add("T");
+		ad2.add("B");
+		
+		
+		
+		System.out.println(ad);
+		System.out.println(ad2);
+		
+		System.out.println(ad.pop());
+		System.out.println(ad2.pop());
+		
+		System.out.println(ad);
+		System.out.println(ad2);
+		
+		Iterator it = ad.iterator();
+		while(it.hasNext()){System.out.println(it.next());}
+	}
+
+}

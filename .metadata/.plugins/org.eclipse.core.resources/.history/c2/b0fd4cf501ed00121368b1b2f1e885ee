@@ -1,0 +1,20 @@
+package com.cloudwick.arrays;
+
+public class ArrayMethods {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int arr[] =new int[10];
+		
+		for(int i = 0; i < 10; i++)
+		      arr[i] = -3 * i;
+		
+		for(int i:arr)
+			System.out.println(arr[i]);
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.cloudwick.compartors;
+
+import java.util.TreeSet;
+
+public class CompDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeSet<String> ts = new TreeSet<String>(new MyComp());
+
+		ts.add("E");
+		ts.add("R");
+		ts.add("F");
+		ts.add("C");
+		ts.add("S");
+		ts.add("A");
+		ts.add("M");
+		
+		System.out.println(ts);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.cloudwick.collections;
+
+public class ArrayDQExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

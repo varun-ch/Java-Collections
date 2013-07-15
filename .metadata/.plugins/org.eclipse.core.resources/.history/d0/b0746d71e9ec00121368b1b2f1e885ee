@@ -1,0 +1,37 @@
+package com.cloudwick.collections;
+
+import java.util.ArrayDeque;
+
+public class ArrayDQExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayDeque<String> ad = new ArrayDeque<String>();
+		ArrayDeque<String> ad2 = new ArrayDeque<String>();
+		
+		ad2.add("E");
+		ad2.add("R");
+		ad2.add("V");
+		ad2.add("C");
+		ad2.add("D");
+		ad2.add("T");
+		ad2.add("B");
+		
+		ad.push("E");
+		ad.push("R");
+		ad.push("V");
+		ad.push("C");
+		ad.push("D");
+		ad.push("T");
+		ad.push("B");
+		
+		
+		System.out.println(ad+""+ad2);
+
+	}
+
+}

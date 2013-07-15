@@ -1,0 +1,33 @@
+package com.cloudwick.collections;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
+import javax.management.Query;
+
+
+public class PQExample extends Query {
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		PriorityQueue<String> pq= new PriorityQueue<String>();//default capacity is 11
+		
+		
+		
+		pq.add("E");
+		pq.add("R");
+		pq.add("F");
+		pq.add("C");
+		pq.add("S");
+		pq.add("T");
+		pq.add("M");
+		
+		System.out.println(pq);
+	}
+
+}

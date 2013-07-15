@@ -1,0 +1,25 @@
+package com.cloudwick.udcollection;
+
+import java.util.LinkedList;
+
+public class MailList {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LinkedList<Address> ll = new LinkedList<Address>();
+
+		ll.add(new Address("varun", "pilot", "Stevenson", "Fremont", "CA", "94538"));
+		ll.add(new Address("Prem", "bejjam", "Martin", "Austin", "TX", "98337"));
+		ll.add(new Address("Kiran", "Nadigatla", "Lancaster", "Richmond", "KY", "40475"));
+
+		for (Address ele : ll) {
+
+		}
+
+	}
+
+}

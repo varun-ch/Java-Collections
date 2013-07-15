@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.cloudwick.collections.HashSetExample&apos; to &apos;Hash_And_Tree&apos;&#x0A;- Original project: &apos;CollectionsExamples&apos;&#x0A;- Original element: &apos;com.cloudwick.collections.HashSetExample&apos;&#x0A;- Renamed element: &apos;com.cloudwick.collections.Hash_And_Tree&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HashSetExample&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.cloudwick.collections{HashSetExample.java[HashSetExample" matchStrategy="1" name="Hash_And_Tree" qualified="false" references="true" similarDeclarations="false" stamp="1373845653569" textual="false" version="1.0"/>
+</session>
